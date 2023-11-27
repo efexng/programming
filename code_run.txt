@@ -1,0 +1,31 @@
+#for LR
+
+to run programm
+gcc -o linear_regression_plot linear_regression_plot.c
+./linear_regression_plot
+
+
+
+#for cp
+
+to run programm
+gcc -o calculate_pi calculate_pi.c -pthread
+./calculate_pi 1000000 4
+
+
+
+#for pr
+
+to run programm
+
+gcc -o prime_numbers prime_numbers.c -pthread
+./prime_numbers PrimeData.txt 4
+
+
+
+#for bb
+
+to run programm
+
+gcc -o box_blur_multithreading box_blur_multithreading.c -lpthread -lm
+./box_blur_multithreading
